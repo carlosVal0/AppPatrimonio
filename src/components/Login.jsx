@@ -3,7 +3,7 @@ import "../styles/Login.css"
 const Login = () => {
     return (
         <div className="form-container">
-            <form className="login-form" action="/#/dashboard">
+            <form className="login-form" action="dashboard">
                 <label htmlFor="email">Correo electrónico</label>
                 <input type="email" name="email" placeholder="correo@dominio.com" />
 
