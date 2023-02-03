@@ -9,7 +9,7 @@ function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route exact path='login' element={<Login />} />
+        <Route exact path='/login' element={<Login />} />
         <Route exact path='/#/dashboard' element={<UserDashboard />} />
         <Route exact path='/' element={<Layout />} />
         <Route path='*' element={<Layout />} />
