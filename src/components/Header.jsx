@@ -7,8 +7,8 @@ const Header = () => {
             <nav>
                 <p className="logo" >App Patrimonio</p>
                 <ul className='desktop-menu'>
-                    <li><a href="/">Inicio</a></li>
-                    <li><a href="/">Sugerencias</a></li>
+                    <li><Link to="/">Inicio</Link></li>
+                    <li><Link to="/">Sugerencias</Link></li>
                     <li><Link to="/login">Iniciar sesión</Link></li>
                 </ul>
                 <ul className='mobile-menu'>
