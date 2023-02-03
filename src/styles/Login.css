@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap');
+
+:root{
+    --poppins: 'Poppins', sans-serif;
+    --indigo-dye: #043A56;
+    --viridian-green: #0EA6AC;
+    --cultured: #F0F2EF;
+    --auburn: #A52422;
+}
+
+.form-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, black,0%, rgba(0,0,0,0.8)), url('../assets/images/Funza.jpg');
+    background-size: contain;
+
+}
+
+form {
+    padding: 12px;
+    border-radius: 12px;
+    background-color: var(--cultured);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.login-form label {
+    font-family: var(--poppins);
+}
+
+.login-form input {
+    border: none;
+    background-color: snow;
+    padding: 0 12px;
+    height: 36px;
+    width: 256px;
+    border-radius: 12px;
+    font-family: var(--poppins);
+}
+
+form .login-button {
+    width: 128px;
+    align-self: center;
+    margin: 20px auto;
+    background-color: var(--indigo-dye);
+    color: var(--cultured);
+    cursor: pointer;
+}
+
+form .login-button:hover {
+    background-color: var(--viridian-green);
+}

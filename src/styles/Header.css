@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap');
+
+:root{
+    --poppins: 'Poppins', sans-serif;
+    --indigo-dye: #043A56;
+    --viridian-green: #0EA6AC;
+    --cultured: #F0F2EF;
+    --auburn: #A52422;
+}
+
+nav {
+    height: 60px;
+    background-color: var(--indigo-dye);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: var(--cultured);
+    font-family: var(--poppins);
+    font-size: 20px;
+    margin: auto 20px;
+    
+}
+
+nav .desktop-menu{
+    display: none;
+    margin: 0 36px;
+    gap: 12px
+}
+
+
+nav .desktop-menu li{
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+}
+
+nav .desktop-menu li:hover{
+    background-color: var(--viridian-green);
+    cursor: pointer;
+}
+
+
+nav .desktop-menu li a {
+    color: var(--cultured);
+    font-family: var(--poppins);
+    text-decoration: none;
+}
+
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 12px;
+    
+}
+
+.mobile-menu li{
+    width: 24px;
+    height: 3px;
+    margin: 2px;
+    background-color: white;
+}
+
+@media (min-width: 640px) {
+
+    nav .desktop-menu {
+        display: flex;
+    }
+
+    .logo {
+        font-size: 24px;
+        margin: auto 36px;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+    
+    
+}

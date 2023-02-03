@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;900&display=swap');
+:root{
+    --poppins: 'Poppins', sans-serif;
+    --indigo-dye: #043A56;
+    --viridian-green: #0EA6AC;
+    --cultured: #F0F2EF;
+    --auburn: #A52422;
+}
+
+.card {
+    width: 250px;
+    margin: 24px;
+    height: 300px;
+    border-radius: 24px;
+    padding-bottom: 12px;
+    border: 2px solid var(--cultured);
+    background-color: var(--cultured);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.card-image{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 24px 24px 0 0;
+    
+}
+
+.card-title {
+    font-size: 18px;
+    font-family: var(--poppins);
+    font-weight: 400;
+    align-self: center;
+}
+
+.card-year, .card-description {
+    font-size: 12px;
+    font-family: var(--poppins);
+    padding: 6px;
+}
