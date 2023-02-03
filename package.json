@@ -2,7 +2,6 @@
   "name": "vite---react",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://patrimonioappv2.up.railway.app/",
   "scripts": {
     "start": "npx http-server ./dist",
     "dev": "vite",
