@@ -7,7 +7,7 @@ import UserDashboard from './containers/UserDashboard'
 function App() {
 
   return (
-    <BrowserRouter basename='/'>
+    <BrowserRouter>
       <Routes>
         <Route exact path='/' element={<Layout />} />
         <Route exact path='/login' element={<Login />} />
