@@ -7,7 +7,7 @@ import UserDashboard from './containers/UserDashboard'
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='https://patrimonioappv2.up.railway.app/'>
       <Routes>
         <Route exact path='login' element={<Login />} />
         <Route exact path='/#/dashboard' element={<UserDashboard />} />
