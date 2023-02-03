@@ -9,10 +9,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path='/login' element={<Login />} />
-        <Route exact path='/dashboard' element={<UserDashboard />} />
-        <Route exact path='/' element={<Login />} />
-        <Route path='*' element={<Login />} />
+        <Route exact path='/#/login' element={<Login />} />
+        <Route exact path='/#/dashboard' element={<UserDashboard />} />
+        <Route exact path='/' element={<Layout />} />
+        <Route path='*' element={<Layout />} />
       </Routes>
     </BrowserRouter>
   )

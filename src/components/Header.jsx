@@ -8,7 +8,7 @@ const Header = () => {
                 <ul className='desktop-menu'>
                     <li><a href="/">Inicio</a></li>
                     <li><a href="/">Sugerencias</a></li>
-                    <li><a href="/login">Iniciar sesión</a></li>
+                    <li><a href="/#/login">Iniciar sesión</a></li>
                 </ul>
                 <ul className='mobile-menu'>
                     <li></li>
