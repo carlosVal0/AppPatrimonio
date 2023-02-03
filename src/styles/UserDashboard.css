@@ -43,3 +43,11 @@
     background-color: var(--viridian-green);
     cursor: pointer;
 }
+
+.items-container {
+    gap: 16px;
+}
+
+.container-bib {
+    margin-top: 36px;
+}
