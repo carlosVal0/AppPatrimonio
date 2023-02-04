@@ -1,27 +1,28 @@
----
-title: Vite React
-description: Example Vite app that is configured with React
-tags:
-  - vite
-  - react
----
+# App Patrimonio
+ App desarrollada en React.js con el fin de gestionar y administrar recursos de patrimonio en diferentes formatos
 
-# Vite + React
-This example utilises vite for static site generation
+## Instalación del proyecto para desarrollo
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/-TK8rB?referralCode=OH27A5)
+Ejecutar en consola los siguientes comandos en la carpeta donde se guardará el proyecto
 
-## ✨ Features
+**Importante tener instalado Node.js**
 
-- Vite
-- React
+    git clone https://github.com/carlosVal0/AppPatrimonio.git
+    cd AppPatrimonio
+    npm install
+    
 
-## 💁‍♀️ How to use
 
-- Install dependencies `yarn`
-- Connect to your Railway project `railway link`
-- Start the development server `railway run yarn dev`
 
-## 📝 Notes
+## Estructura del proyecto
+En la carpeta ***src*** se encuentra la estructura fundamental del proyecto. A continuación, se explica que contiene cada carpeta y los archivos que son fundamentales
 
-The project is directly derived from the standard creation with some extra configuration to make sure it is quick and easy to get started on hosting your next site with railway. 
+```
+src/
+ ├── assets (Archivos multimedia estáticos) 
+ ├── components (Se almacenan en .jsx los componentes de React)
+ ├── containers (Estructura de cada pantalla de la App, integra componentes) 
+ ├── styles (Archivos de estilo en CSS para cada componente y container) 
+ ├── main.jsx -> Punto de entrada de la App 
+ └── App.jsx -> Rutas y navegación de la App con React Router
+```
