@@ -11,12 +11,14 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    max-height: 600px;
+    overflow: auto;
 }
 
 .container-2{
     background: linear-gradient(to right, white,0%, rgba(255,255,255,0.8)),url('https://drive.google.com/uc?export=view&id=1fR5FhQvSpg7E42thiiX9yLCfKcAKWltC');
-    background-size: cover;
-    height: 100vh;
+    background-size: auto;
+    height: calc(100vh - 56px);
 }
 
 .container {
@@ -24,7 +26,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: 1;
 }
 
 .container input {
@@ -54,6 +55,7 @@
 
 .items-container {
     gap: 16px;
+   
 }
 
 .container-bib {
