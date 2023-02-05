@@ -41,7 +41,7 @@ form {
     height: 36px;
     width: 256px;
     border-radius: 12px;
-    font-family: var(--poppins);
+    font-family:  'Source Sans Pro', sans-serif;;
 }
 
 form .login-button {

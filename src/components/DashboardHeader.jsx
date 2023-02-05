@@ -4,9 +4,9 @@ import profilePic from "../assets/person.png"
 const DashboardHeader = () => {
     return (
         <header>
-            <nav className="navbar navbar-dark navbar-expand-lg bg-primary">
+            <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
                 <div className="container-fluid">
-                    <Link to="/" className="navbar-brand" href="/dashboard">App Patrimonio</Link>
+                    <Link to="/" className="navbar-brand" href="/dashboard">ODIN</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>

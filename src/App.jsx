@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route exact path='/login' element={<Login />} />
         <Route exact path='/dashboard' element={<UserDashboard />} />
-        <Route exact path='/' element={<Layout />} />
+        <Route exact path='/' element={<Login />} />
         <Route path='*' element={<Layout />} />
       </Routes>
   )

@@ -17,7 +17,7 @@ const Header = () => {
                     <li></li>
                 </ul>
             </nav> */}
-      <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
+      <nav className="navbar navbar-dark navbar-expand-lg" style={{backgroundColor: 'orange'}}>
         <div className="container-fluid">
           <Link to="/" className="navbar-brand text-white" href="#">
             App Patrimonio
@@ -33,7 +33,7 @@ const Header = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse bg-" id="navbarSupportedContent">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
                 <Link to="/" className="nav-link disabled" href="#">

@@ -1,10 +1,13 @@
 import React from 'react';
 import Header from '../components/Header';
+import '../styles/Layout.css'
 
 const Layout = () => {
     return (
         <React.Fragment>
-            <Header />
+            <div className="main-container">
+                <Header />
+            </div>
         </React.Fragment>
     );
 }

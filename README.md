@@ -21,7 +21,8 @@ En la carpeta ***src*** se encuentra la estructura fundamental del proyecto. A c
 src/
  ├── assets (Archivos multimedia estáticos) 
  ├── components (Se almacenan en .jsx los componentes de React)
- ├── containers (Estructura de cada pantalla de la App, integra componentes) 
+ ├── containers (Estructura de cada pantalla de la App, integra componentes)
+ ├── scripts (Scripts y lógica de la App) 
  ├── styles (Archivos de estilo en CSS para cada componente y container) 
  ├── main.jsx -> Punto de entrada de la App 
  └── App.jsx -> Rutas y navegación de la App con React Router

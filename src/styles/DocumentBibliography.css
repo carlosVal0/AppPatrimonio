@@ -1,16 +1,18 @@
 .bibliography {
     display: grid;
     width: 80vh;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 24px repeat(9, 1fr);
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(10, auto);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     border: 1px solid black;
+    overflow: scroll;
 }
     
     .identify-title { 
         grid-area: 1 / 1 / 2 / 4;
         height: fit-content;
+
     }
 
     .identify-title p{
@@ -107,4 +109,10 @@
     .photo-content p:nth-child(2),
     .content-container p:nth-child(2) {
         text-align: center;
+    }
+
+    @media (max-width: 640px){
+        .bibliography {
+            width: 80%;
+        }
     }

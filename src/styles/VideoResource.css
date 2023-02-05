@@ -1,0 +1,15 @@
+.video-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: min-content;
+}
+
+.video-container h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.video-container p{
+    margin-top: 36px;
+}
