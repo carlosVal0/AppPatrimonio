@@ -7,8 +7,8 @@ Ejecutar en consola los siguientes comandos en la carpeta donde se guardará el 
 
 **Importante tener instalado Node.js**
 
-    git clone https://github.com/carlosVal0/AppPatrimonio.git
-    cd AppPatrimonio
+    git clone https://github.com/carlosVal0/ODIN.git
+    cd ODIN
     npm install
     
 
@@ -21,8 +21,8 @@ En la carpeta ***src*** se encuentra la estructura fundamental del proyecto. A c
 src/
  ├── assets (Archivos multimedia estáticos) 
  ├── components (Se almacenan en .jsx los componentes de React)
- ├── containers (Estructura de cada pantalla de la App, integra componentes)
- ├── scripts (Scripts y lógica de la App) 
+ ├── screens (Estructura de cada pantalla de la App, integra componentes)
+ ├── logic (Scripts y lógica de la App) 
  ├── styles (Archivos de estilo en CSS para cada componente y container) 
  ├── main.jsx -> Punto de entrada de la App 
  └── App.jsx -> Rutas y navegación de la App con React Router
